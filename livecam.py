@@ -49,7 +49,7 @@ s2 = (
 
 system_content = s2
 
-api_key = "AIzaSyCvlS8R3Nsf_P8YNBVUtUKyc8Edx552pgo"
+api_key = ""
 model_name = "gemini-1.5-flash-latest"
 
 if not api_key:
@@ -87,13 +87,13 @@ client_kwargs = {
 
 client = client_factory.create_client('google', **client_kwargs)
 
-account_sid = 'AC9cc075e4f3155b1996fd06bc2ed8ad79'
-auth_token = '2620c066025463c8686f677444aae03d'
+account_sid = ''
+auth_token = ''
 twilio_client = TwilioClient(account_sid, auth_token)
 
 # Twilio phone numbers
-from_phone_number = '+12184525529'
-to_phone_number = '+916260889775'
+from_phone_number = ''
+to_phone_number = ''
 
 def display_image(img_path):
     display(IPImage(filename=img_path))
