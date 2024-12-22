@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+
+{% block title %}Welcome to SafeSight{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section text-center">
+    <div class="container">
+        <h1 class="hero-title">Welcome to <span class="brand-name">SafeSight</span></h1>
+        <p class="hero-subtitle mt-3">
+            SafeSight is an AI-powered surveillance system designed to revolutionize home and CCTV security. 
+            Combining intelligent activity recognition with real-time monitoring, it ensures smarter alerts, 
+            reduced false alarms, and enhanced safety.
+        </p>
+        <a href="/upload" class="btn hero-button mt-4">Let's Start</a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section text-center">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-4 feature">
+                <i class="fas fa-camera fa-3x"></i>
+                <h3>Smart Monitoring</h3>
+                <p>Real-time surveillance with AI-driven activity recognition.</p>
+            </div>
+            <div class="col-md-4 feature">
+                <i class="fas fa-shield-alt fa-3x"></i>
+                <h3>Enhanced Security</h3>
+                <p>Reduce false alarms with accurate threat detection.</p>
+            </div>
+            <div class="col-md-4 feature">
+                <i class="fas fa-bell fa-3x"></i>
+                <h3>Instant Alerts</h3>
+                <p>Get notified instantly about critical events.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="cta-section text-center mt-5">
+    <h2>Experience the Future of Security with SafeSight</h2>
+    <!-- <a href="/upload" class="btn btn-success btn-lg mt-3">Get Started Now</a>
+</section> -->
+
+<!-- Footer Section -->
+<footer class="footer mt-5">
+    <p>&copy; 2024 SafeSight. All rights reserved.</p>
+</footer>
+{% endblock %}

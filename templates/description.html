@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block title %}Image Description{% endblock %}
+
+{% block content %}
+<section class="description-section text-center">
+    <div class="container">
+        <h1 class="description-title">Image Analysis Report</h1>
+        <div class="description-card shadow p-4 rounded">
+            <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Uploaded Image" class="img-fluid mb-4">
+            <p><strong>Description:</strong> {{ description }}</p>
+            <!-- <p><strong>Priority:</strong> {{ priority|capitalize }} Priority</p> -->
+        </div>
+        <a href="{{ url_for('home') }}" class="btn btn-primary mt-3">Back</a>
+
+    </div>
+</section>
+{% endblock %}

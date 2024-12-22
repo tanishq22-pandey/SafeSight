@@ -1,0 +1,365 @@
+/* ---------- General Body Styling ---------- */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ---------- Global Heading Styling ---------- */
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* ---------- Navbar Styling ---------- */
+.navbar {
+    background-color: #1e1e2e !important;
+    border-bottom: 1px solid #44475a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00adb5 !important;
+}
+
+.navbar-brand:hover {
+    color: #02d2e9 !important;
+}
+
+/* ---------- Hero Section ---------- */
+.hero-section {
+    background: linear-gradient(to right, #1e1e2e, #25293c);
+    color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 0 0 50% 50% / 10%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    color: #c7c7c7;
+}
+
+.hero-button {
+    font-size: 1.2rem;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: #00adb5;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #02d2e9;
+    box-shadow: 0 0 15px #00adb5;
+}
+
+/* ---------- Features Section ---------- */
+.features-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #1b1b2f;
+}
+
+.feature {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.feature i {
+    color: #00adb5;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #bdbdbd;
+    max-width: 300px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+/* ---------- Upload Section ---------- */
+.upload-section {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #1e1e2e, #25293c);
+    color: #e0e0e0;  /* Light text color to match the rest of the site */
+    text-align: center;
+    border-radius: 0 0 50% 50% / 10%;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.upload-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.upload-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #c7c7c7;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.upload-card {
+    background: #2e2e4d; /* Dark background to match the overall theme */
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5); /* Deep shadow to add depth */
+    border: 1px solid #44475a; /* Dark border */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.upload-card:hover {
+    box-shadow: 0 15px 40px rgba(255, 255, 255, 0.7); /* Stronger shadow on hover */
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.upload-card .form-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #e0e0e0; /* Light text color for the form label */
+}
+
+.upload-card .form-control {
+    font-size: 1rem;
+    padding: 12px; /* Slightly more padding for a modern feel */
+    border-radius: 10px;
+    border: 1px solid #44475a; /* Dark border */
+    background-color: #2e2e4d; /* Matching dark background */
+    color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+.upload-card .form-control:focus {
+    border-color: #00adb5; /* Focused state color */
+    box-shadow: 0 0 8px #00adb5;
+}
+
+.upload-button {
+    margin-top: 20px;
+    background: #00adb5;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px 30px; /* Larger button for emphasis */
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.upload-button:hover {
+    background: #02d2e9;
+    box-shadow: 0 0 15px #00adb5;
+}
+
+
+/* Priority Section Styling */
+.priority-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.priority-section .form-check {
+    margin-top: 10px;
+}
+
+.priority-section .form-check-input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.priority-section .form-check-label {
+    font-size: 1rem;
+    color: #f2f6f9;
+}
+
+/* ---------- Description Page Styling ---------- */
+.description-section {
+    background: linear-gradient(to right, #1e1e2e, #25293c);
+    min-height: calc(100vh - 76px); /* Adjust based on your navbar height */
+    padding: 40px 0;
+}
+
+.description-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.title-underline {
+    height: 3px;
+    width: 100px;
+    background: #00adb5;
+    margin: 0 auto 40px;
+    border-radius: 2px;
+}
+
+.description-card {
+    background: #2e2e4d;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid #44475a;
+    transition: transform 0.3s ease;
+}
+
+.description-card:hover {
+    transform: translateY(-5px);
+}
+
+.image-container {
+    background: #1e1e2e;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.analysis-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.analysis-subtitle {
+    color: #00adb5;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.description-text {
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding: 15px;
+    background: rgba(30, 30, 46, 0.5);
+    border-radius: 8px;
+    border: 1px solid #44475a;
+}
+
+.priority-badge {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.priority-badge.high {
+    background: #ff4757;
+}
+
+.priority-badge.medium {
+    background: #ffa502;
+}
+
+.priority-badge.low {
+    background: #2ed573;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #00adb5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    background: #02d2e9;
+    box-shadow: 0 0 15px #00adb5;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+/* ---------- Analyze Section ---------- */
+.analyze-section {
+    background: #121212; /* Dark background to match the theme */
+    color: #e0e0e0;
+    padding: 80px 20px;
+}
+
+.analyze-title {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.analyze-subtitle {
+    color: #c7c7c7;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.analyze-card {
+    background-color: #2e2e4d; /* Dark card background */
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Deep shadow for a raised effect */
+    border: 1px solid #44475a;
+}
+
+.analyze-button {
+    background: #00adb5;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.analyze-button:hover {
+    background: #02d2e9;
+    box-shadow: 0 0 15px #00adb5;
+}
